@@ -11,11 +11,11 @@ import thumbnailStaff from "../../static/images/feature-user.png"
 
 const IndexPage = () => (
     <Layout>
-        <SEO title="Make your Staff and Workspace Happy"/>
+        <SEO title="Self-hosted Push Notifications"/>
 
         <div className={"page-header home"}>
-            <h1>Make your Staff and Workspace Happy</h1>
-            <p>HiStaff gives your complex the opportunity to increase the percentage of happiness<br/>and enjoyment of your staff and as a result, bring productivity to your workspace.</p>
+            <h1>Self-hosted Push Notifications</h1>
+            <p>An Open Source project that sends Web Push notifications directly from your own server:<br/> No hidden fees, no third-party dependencies and you own your data.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -31,8 +31,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Create and Join Events</h2>
-                                <p>Save your time and energy by letting HiStaff to manage your events (handle the colleague’s birthday, gathering, etc.)</p>
+                                <h2>Lorem Ipsum</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
                             </div>
                         </div>
                     </div>
@@ -42,8 +42,8 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Public Board</h2>
-                                <p>Let the staff write down on the board freely,<br/>Joking with each other and writing cool content can make the workplace more diverse and attractive for employees. </p>
+                                <h2>Sed ut perspiciatis</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error,<br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam </p>
                             </div>
                         </div>
 
@@ -65,8 +65,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Internal News</h2>
-                                <p>Get rid of sending news by e-mail and its problems; post the news in an internal and attractive format via HiStaff instead.</p>
+                                <h2>Sed ut</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
                             </div>
                         </div>
                     </div>
@@ -77,7 +77,7 @@ const IndexPage = () => (
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
                                 <h2>Teams</h2>
-                                <p>HiStaff let you add staff in specific teams and manage them easily.</p>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
                             </div>
                         </div>
 
@@ -99,8 +99,8 @@ const IndexPage = () => (
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Staff management</h2>
-                                <p>Discard traditional ways to archive staff documents and information, and try new ways to store and archive them in HiStaff easily.</p>
+                                <h2>Perspiciatis</h2>
+                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
                             </div>
                         </div>
                     </div>
@@ -112,11 +112,11 @@ const IndexPage = () => (
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
                     <h2>Sign up for free</h2>
-                    <p>Sign up and start increasing the productivity of your business with HiStaff.</p>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://app.histaff.io" target={"_blank"}>Get Started</a>
+                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"}>Get Started</a>
                 </div>
             </div>
         </div>
