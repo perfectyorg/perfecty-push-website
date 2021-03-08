@@ -34,12 +34,12 @@ const Layout = ({children}) => (
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
                                     <Link to="/" title={"Perfecty"}>
-                                        <img alt={"Logo"} src={logo}/>
+                                        <img alt={"Logo"} src={logo} loading={"lazy"}/>
                                     </Link>
                                 </div>
 
                                 <div className={"about"}>
-                                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                                    <p>WordPress plugin for self-hosted Web Push Notifications</p>
                                 </div>
                             </div>
                         </div>
@@ -49,10 +49,7 @@ const Layout = ({children}) => (
                                 <ul className={"links"}>
                                     <h4>Perfecty Push</h4>
                                     <ul>
-                                        <li><Link to="/integrations/slack" title={"Integrations"}>Integrations</Link></li>
-                                        <li><Link to="/about" title={"About Us"}>About</Link></li>
-                                        <li><a href={"https://perfecty.co/blog"}>Blog</a></li>
-                                        <li><a className={"links__special"} href={"https://feedback.perfecty.co/"} target={"_blank"} title={"We look forward to receiving your great feedback"}>Feedback</a></li>
+                                        <li><Link className={"links__special"} to="/contact" title={"Contact Us"}>Feedback</Link></li>
                                     </ul>
                                 </ul>
                             </div>
@@ -64,8 +61,6 @@ const Layout = ({children}) => (
                                     <h4>Support</h4>
                                     <ul>
                                         <li><Link to="/contact" title={"Contact Us"}>Contact</Link></li>
-                                        <li><Link to="/privacy" title={"Privacy Policy"}>Privacy</Link></li>
-                                        <li><Link to="/terms" title={"Terms Of Use"}>Terms Of Use</Link></li>
                                     </ul>
                                 </div>
                             </div>
@@ -74,14 +69,14 @@ const Layout = ({children}) => (
                         <div className={"col-3"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub}/></a>
+                                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub} loading={"lazy"}/></a>
                                 </div>
                             </div>
                         </div>
                     </div>
 
                     <div className={"copyright"}>
-                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://perfecty.co" title={"Perfecty"}>Perfecty.co</a>.</p>
+                        <p>Copyright {new Date().getFullYear()}, {` `} <a href="https://perfecty.org" title={"Perfecty"}>Perfecty.org</a>.</p>
                     </div>
                 </div>
             </footer>

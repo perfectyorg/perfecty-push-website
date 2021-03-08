@@ -29,8 +29,7 @@ body {
 
     .logo {
       img {
-        width: 151px;
-        height: 44px;
+        width: 200px;
       }
     }
 
@@ -320,6 +319,12 @@ body {
     .widget__item {
       @media screen and (max-width: $break-small) {
         padding: 15px 0 0;
+      }
+
+      .logo {
+        img {
+          width: 300px;
+        }
       }
 
       .about {

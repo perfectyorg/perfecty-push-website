@@ -2,20 +2,20 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import featureImage from "../../static/images/hero.png";
-import thumbnailEvent from "../../static/images/feature-event.png"
-import thumbnailBoard from "../../static/images/feature-board.png"
-import thumbnailNews from "../../static/images/feature-news.png"
-import thumbnailTeams from "../../static/images/feature-team.png"
-import thumbnailStaff from "../../static/images/feature-user.png"
+import featureImage from "../../static/images/screenshot-1.png";
+import thumbnailAuthPush from "../../static/images/screenshot-auto-push.png"
+import thumbnailCustom from "../../static/images/screenshot-custom.png"
+import thumbnailPublicPreferences from "../../static/images/screenshot-public-preferences.png"
+import thumbnailManageUsers from "../../static/images/screenshot-manage-users.png"
+import thumbnailAppareance from "../../static/images/screenshot-appareance.png"
 
 const IndexPage = () => (
     <Layout>
         <SEO title="Self-hosted Push Notifications"/>
 
         <div className={"page-header home"}>
-            <h1>Self-hosted Push Notifications</h1>
-            <p>An Open Source project that sends Web Push notifications directly from your own server:<br/> No hidden fees, no third-party dependencies and you own your data.</p>
+            <h1>Self-hosted Push plugin</h1>
+            <p>Send web Push Notifications directly from your WordPress server:<br/> No hidden fees, no third-party dependencies and you own your data.</p>
             <img alt={"Dashboard"} src={featureImage}/>
         </div>
 
@@ -25,14 +25,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Event"} src={thumbnailEvent}/>
+                                <img alt={"Send on new Post"} src={thumbnailAuthPush}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Lorem Ipsum</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium</p>
+                                <h2>Automatic notifications</h2>
+                                <p>Send Push Notifications when you publish a new post.</p>
                             </div>
                         </div>
                     </div>
@@ -42,14 +42,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Sed ut perspiciatis</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error,<br/>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam </p>
+                                <h2>Custom notifications</h2>
+                                <p>Send notifications with custom title, message, image, url to open and icon.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailBoard}/>
+                                <img alt={"Board"} src={thumbnailCustom}/>
                             </div>
                         </div>
                     </div>
@@ -59,14 +59,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailNews}/>
+                                <img alt={"News"} src={thumbnailPublicPreferences}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Sed ut</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae</p>
+                                <h2>Opt-in/opt-out</h2>
+                                <p>Your users can opt-out from the public widget.</p>
                             </div>
                         </div>
                     </div>
@@ -76,14 +76,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Teams</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium.</p>
+                                <h2>Self-hosted server</h2>
+                                <p>All the information is processed and stored in your WordPress server.</p>
                             </div>
                         </div>
 
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailTeams}/>
+                                <img alt={"Team"} src={thumbnailManageUsers}/>
                             </div>
                         </div>
                     </div>
@@ -93,14 +93,14 @@ const IndexPage = () => (
                     <div className={"row"}>
                         <div className={"col-6 first"}>
                             <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailStaff}/>
+                                <img alt={"Users"} src={thumbnailAppareance}/>
                             </div>
                         </div>
 
                         <div className={"col-6"}>
                             <div className={"feature__content"}>
-                                <h2>Perspiciatis</h2>
-                                <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae.</p>
+                                <h2>Custom appearance</h2>
+                                <p>Easily change the public widget texts and feel free to override the CSS styles.</p>
                             </div>
                         </div>
                     </div>
@@ -111,12 +111,12 @@ const IndexPage = () => (
         <div className={"call-to-action"}>
             <div className={"container"}>
                 <div className={"call-to-action__content"}>
-                    <h2>Sign up for free</h2>
-                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                    <h2>Install it for free!</h2>
+                    <p>Perfecty Push is for free, it's Open Source.</p>
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"}>Get Started</a>
+                    <a href="https://wordpress.org/plugins/perfecty-push-notifications/" target={"_blank"}>Install</a>
                 </div>
             </div>
         </div>

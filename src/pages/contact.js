@@ -14,13 +14,13 @@ const ContactPage = () => (
 
                 <div className={"row"}>
                     <div className={"col-7"}>
-                        <p>Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?.</p>
+                        <p>Do you want to contact us? Feel free to do it!</p>
                     </div>
 
                     <div className={"col-5"}>
                         <div className={"contact-items"}>
-                            <p>Plain email is the best way to contact us.</p>
-                            <h2>hello@perfecty.co</h2>
+                            <p>Send us an email to:</p>
+                            <h2>hello@perfecty.org</h2>
                         </div>
                     </div>
                 </div>

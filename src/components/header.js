@@ -14,7 +14,7 @@ const Header = ({siteTitle}) => (
                 </div>
 
                 <div className={"get-started"}>
-                    <a href={"https://github.com/rwngallego/perfecty-push-wp"}>Get Started</a>
+                    <a href={"https://wordpress.org/plugins/perfecty-push-notifications/"}>Install plugin</a>
                 </div>
             </div>
         </div>
