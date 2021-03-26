@@ -22,6 +22,10 @@ body {
     }
   }
 
+  .not-pass {
+    display: none;
+  }
+
   header {
     background-color: #FDFAFF;
     display: block;
@@ -376,6 +380,7 @@ body {
 
       .social {
         text-align: right;
+        font-size: 1.777em;
 
         @media screen and (max-width: $break-small) {
           text-align: center;

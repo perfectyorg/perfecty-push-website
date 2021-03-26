@@ -23,7 +23,7 @@ const AboutPage = () => (
                 </div>
 
                 <div className={"row"}>
-                    <div className={"col-6"}>
+                    <div className={"col-sm-6"}>
                         <div className={"item"}>
                             <img alt={"Information"} src={informationImage}/>
                             <h3>Consequuntur magni</h3>
@@ -31,7 +31,7 @@ const AboutPage = () => (
                         </div>
                     </div>
 
-                    <div className={"col-6"}>
+                    <div className={"col-sm-6"}>
                         <div className={"item"}>
                             <img alt={"Event"} src={eventImage}/>
                             <h3>Quia consequuntur magni</h3>
@@ -41,7 +41,7 @@ const AboutPage = () => (
                 </div>
 
                 <div className={"row"}>
-                    <div className={"col-6"}>
+                    <div className={"col-sm-6"}>
                         <div className={"item"}>
                             <img alt={"Productivity"} src={ProductivityImage}/>
                             <h3>Sed quia consequuntur magni</h3>
@@ -49,7 +49,7 @@ const AboutPage = () => (
                         </div>
                     </div>
 
-                    <div className={"col-6"}>
+                    <div className={"col-sm-6"}>
                         <div className={"item"}>
                             <img alt={"Happiness"} src={happinessImage}/>
                             <h3>Magni</h3>

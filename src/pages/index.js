@@ -23,13 +23,64 @@ const IndexPage = () => (
             <div className={"features"}>
                 <div className={"feature__item"}>
                     <div className={"row"}>
-                        <div className={"col-6 first"}>
+                        <div className={"col-sm-6"}>
+                            <div className={"feature__content"}>
+                                <h2>Self-hosted server</h2>
+                                <p>All the information is processed and stored in your WordPress server.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-sm-6"}>
+                            <div className={"thumbnail"}>
+                                <img alt={"Team"} src={thumbnailManageUsers}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-sm-6"}>
+                            <div className={"thumbnail"}>
+                                <img alt={"News"} src={thumbnailPublicPreferences}/>
+                            </div>
+                        </div>
+
+                        <div className={"col-sm-6"}>
+                            <div className={"feature__content"}>
+                                <h2>Opt-in/opt-out</h2>
+                                <p>Your users can opt-out using the public widget.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-sm-6"}>
+                            <div className={"feature__content"}>
+                                <h2>Custom notifications</h2>
+                                <p>Send notifications with custom title, message, image, url to open and icon.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-sm-6"}>
+                            <div className={"thumbnail"}>
+                                <img alt={"Board"} src={thumbnailCustom}/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className={"feature__item"}>
+                    <div className={"row"}>
+                        <div className={"col-sm-6"}>
                             <div className={"thumbnail"}>
                                 <img alt={"Send on new Post"} src={thumbnailAuthPush}/>
                             </div>
                         </div>
 
-                        <div className={"col-6"}>
+                        <div className={"col-sm-6"}>
                             <div className={"feature__content"}>
                                 <h2>Automatic notifications</h2>
                                 <p>Send Push Notifications when you publish a new post.</p>
@@ -40,67 +91,16 @@ const IndexPage = () => (
 
                 <div className={"feature__item"}>
                     <div className={"row"}>
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Custom notifications</h2>
-                                <p>Send notifications with custom title, message, image, url to open and icon.</p>
-                            </div>
-                        </div>
-
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Board"} src={thumbnailCustom}/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"News"} src={thumbnailPublicPreferences}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Opt-in/opt-out</h2>
-                                <p>Your users can opt-out from the public widget.</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6"}>
-                            <div className={"feature__content"}>
-                                <h2>Self-hosted server</h2>
-                                <p>All the information is processed and stored in your WordPress server.</p>
-                            </div>
-                        </div>
-
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Team"} src={thumbnailManageUsers}/>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className={"feature__item"}>
-                    <div className={"row"}>
-                        <div className={"col-6 first"}>
-                            <div className={"thumbnail"}>
-                                <img alt={"Users"} src={thumbnailAppareance}/>
-                            </div>
-                        </div>
-
-                        <div className={"col-6"}>
+                        <div className={"col-sm-6"}>
                             <div className={"feature__content"}>
                                 <h2>Custom appearance</h2>
                                 <p>Easily change the public widget texts and feel free to override the CSS styles.</p>
+                            </div>
+                        </div>
+
+                        <div className={"col-sm-6"}>
+                            <div className={"thumbnail"}>
+                                <img alt={"Users"} src={thumbnailAppareance}/>
                             </div>
                         </div>
                     </div>

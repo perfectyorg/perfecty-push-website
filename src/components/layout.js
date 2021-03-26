@@ -12,7 +12,6 @@ import {StaticQuery, graphql, Link} from "gatsby"
 import Header from "./header"
 import "../../static/styles/main.scss"
 import logo from "../../static/images/logo.svg"
-import iconGitHub from "../../static/images/icon-github.svg"
 
 const Layout = ({children}) => (
     <StaticQuery query={graphql`
@@ -30,7 +29,7 @@ const Layout = ({children}) => (
             <footer>
                 <div className={"container"}>
                     <div className={"row"}>
-                        <div className={"col-5"}>
+                        <div className={"col-sm-5"}>
                             <div className={"widget__item"}>
                                 <div className={"logo"}>
                                     <Link to="/" title={"Perfecty"}>
@@ -44,7 +43,7 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        <div className={"col-sm-3"}>
                             <div className={"widget__item"}>
                                 <ul className={"links"}>
                                     <h4>Perfecty Push</h4>
@@ -55,7 +54,7 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-2"}>
+                        <div className={"col-sm-2"}>
                             <div className={"widget__item"}>
                                 <div className={"links"}>
                                     <h4>Support</h4>
@@ -66,10 +65,11 @@ const Layout = ({children}) => (
                             </div>
                         </div>
 
-                        <div className={"col-3"}>
+                        <div className={"col-sm-2"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} title={"GitHub"}><img alt={"GitHub"} src={iconGitHub} loading={"lazy"}/></a>
+                                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} title={"GitHub"}><i className="bi bi-github"></i></a>
+                                    <a href="https://www.facebook.com/Perfecty-Push-109168991261513" target={"_blank"} title={"Facebook"}><i className="bi bi-facebook"></i></a>
                                 </div>
                             </div>
                         </div>
