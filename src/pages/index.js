@@ -27,6 +27,7 @@ const IndexPage = () => (
                             <div className={"feature__content"}>
                                 <h2>Self-hosted server</h2>
                                 <p>All the information is processed and stored in your WordPress server.</p>
+                                <p>No need of third-party API Keys.</p>
                             </div>
                         </div>
 

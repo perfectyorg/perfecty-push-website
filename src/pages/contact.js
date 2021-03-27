@@ -16,11 +16,9 @@ const ContactPage = () => (
                 <div className={"row"}>
                     <div className={"col-sm-7"}>
                         <p>Do you want to contact us? Feel free to send us a message!</p>
-                        <Form name="contact" method="POST" data-netlify="true" data-netlify-honeypot="not-pass">
-                            <input type="hidden" name="form-name" value="contact" />
-                            <Form.Group className={"not-pass"} controlId={"not-pass"}>
-                                <Form.Label>Do not fill this:</Form.Label>
-                                <Form.Control type={"text"} name={"not-pass"}></Form.Control>
+                        <Form name="contact" method="post" data-netlify="true" data-netlify-honeypot="not-pass">
+                            <Form.Group controlId={"form-name"}>
+                                <Form.Control type={"hidden"} name={"form-name"} value={"contact"}></Form.Control>
                             </Form.Group>
                             <Form.Group className={"not-pass"} controlId={"not-pass"}>
                                 <Form.Label>Do not fill this:</Form.Label>
