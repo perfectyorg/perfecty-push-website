@@ -68,8 +68,8 @@ const Layout = ({children}) => (
                         <div className={"col-sm-2"}>
                             <div className={"widget__item"}>
                                 <div className={"social"}>
-                                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} title={"GitHub"}><i className="bi bi-github"></i></a>
-                                    <a href="https://www.facebook.com/Perfecty-Push-109168991261513" target={"_blank"} title={"Facebook"}><i className="bi bi-facebook"></i></a>
+                                    <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} rel="noreferrer" title={"GitHub"} aria-label={"GitHub"}><i className="bi bi-github"></i></a>
+                                    <a href="https://www.facebook.com/Perfecty-Push-109168991261513" target={"_blank"} rel="noreferrer"  title={"Facebook"} aria-label={"Facebook"}><i className="bi bi-facebook"></i></a>
                                 </div>
                             </div>
                         </div>

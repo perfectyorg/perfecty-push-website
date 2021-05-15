@@ -117,7 +117,7 @@ const IndexPage = () => (
                 </div>
 
                 <div className={"button"}>
-                    <a href="https://wordpress.org/plugins/perfecty-push-notifications/" target={"_blank"}>Install</a>
+                    <a href="https://wordpress.org/plugins/perfecty-push-notifications/" target={"_blank"} rel="noreferrer" >Install</a>
                 </div>
             </div>
         </div>

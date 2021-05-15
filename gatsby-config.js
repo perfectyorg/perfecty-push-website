@@ -14,14 +14,12 @@ module.exports = {
             },
         },
         {
-            resolve: `gatsby-plugin-google-gtag`,
+            resolve: `gatsby-plugin-google-analytics`,
             options: {
-                // You can add multiple tracking ids and a pageview event will be fired for all of them.
-                trackingIds: [
-                    "UA-191771985-1", // Google Analytics / GA
-                    // "AW-CONVERSION_ID", // Google Ads / Adwords / AW
-                    // "DC-FLOODIGHT_ID", // Marketing Platform advertising products (Display & Video 360, Search Ads 360, and Campaign Manager)
-                ],
+                // The property ID; the tracking code won't be generated without it
+                trackingId: "UA-191771985-1",
+                // Defines where to place the tracking script - `true` in the head and `false` in the body
+                head: true
             },
         },
         `gatsby-transformer-sharp`,
