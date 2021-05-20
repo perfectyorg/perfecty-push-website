@@ -48,6 +48,7 @@ const Layout = ({children}) => (
                                 <ul className={"links"}>
                                     <h4>Perfecty Push</h4>
                                     <ul>
+                                        <li><Link to="https://docs.perfecty.org" title={"Documentation"}>Documentation</Link></li>
                                         <li><Link className={"links__special"} to="/contact" title={"Contact Us"}>Feedback</Link></li>
                                     </ul>
                                 </ul>
@@ -69,7 +70,7 @@ const Layout = ({children}) => (
                             <div className={"widget__item"}>
                                 <div className={"social"}>
                                     <a href="https://github.com/rwngallego/perfecty-push-wp" target={"_blank"} rel="noreferrer" title={"GitHub"} aria-label={"GitHub"}><i className="bi bi-github"></i></a>
-                                    <a href="https://www.facebook.com/Perfecty-Push-109168991261513" target={"_blank"} rel="noreferrer"  title={"Facebook"} aria-label={"Facebook"}><i className="bi bi-facebook"></i></a>
+                                    <a href="https://www.facebook.com/perfectypush/" target={"_blank"} rel="noreferrer"  title={"Facebook"} aria-label={"Facebook"}><i className="bi bi-facebook"></i></a>
                                 </div>
                             </div>
                         </div>
